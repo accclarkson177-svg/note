@@ -6,15 +6,17 @@ home: true
 template: home.html
 statistics: true
 ---
+(๑>ᴗ<๑)
 
-# o(〃'▽'〃)o Hi!
 
-这里是鹤翔万里（TonyCrane）的个人笔记本哦！  
+你们好
+
+这里是Accccc的个人笔记本哦！  
 
 <!-- [:octicons-info-16: 关于我](about/) /  -->
-[:material-clock-time-two-outline: 最近更新](changelog/) / 
-[:octicons-link-16: 朋友们!](links/) / 
-[:material-chart-line: 站点统计](javascript:toggle_statistics();)
+[:material-clock-time-two-outline: 最近更新]
+[:octicons-link-16: 致谢列表与好朋友们]
+[:material-chart-line: 站点统计]
 
 <div id="statistics" markdown="1" class="card" style="width: 27em; border-color: transparent; opacity: 0; font-size: 75%">
 <div style="padding-left: 1em;" markdown="1">
