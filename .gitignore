@@ -1,0 +1,16 @@
+.DS_Store
+site/
+__pycache__/
+
+# Encrypted articles
+docs/writeups/AAA.md
+docs/assets/images/writeups/AAA
+
+# Useless
+docs/cs/pl/asm_int_list
+
+# cached files of tikzautomata plugin
+cache/
+
+.obsidian/
+.ignored-commits
