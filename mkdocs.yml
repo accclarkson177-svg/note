@@ -1,10 +1,10 @@
 site_name: "Ac's Notes"
 site_url: https://note.tonycrane.cc/
-repo_name: TonyCrane/note
+repo_name: accclarkson177-svg/note
 repo_url: https://github.com/accclarkson177-svg/note
 edit_uri: tree/master/docs
 site_description: "Ac's Notes"
-copyright: Copyright &copy; 2022-2025 <a href="https://github.com/TonyCrane" target="_blank" rel="noopener">TonyCrane</a>
+copyright: Copyright &copy; 2026 <a href="https://github.com/accclarkson177-svg" target="_blank" rel="noopener">Ac</a>
 
 theme: 
   name: 'material'
@@ -125,12 +125,11 @@ plugins:
       enabled: !ENV [FULL, false]
       disable_serve: false
 
-#hooks:
-# - hooks/theme_override.py
-# - hooks/linkbackward.py
-# - hooks/toc.py
-# - hooks/tikzautomata.py
-
+hooks:
+ - hooks/theme_override.py
+ - hooks/linkbackward.py
+ - hooks/toc.py
+ 
 not_in_nav: |
   todo.md
   cs/algorithm/ds-som/index.md
