@@ -9,20 +9,20 @@ statistics: true
 # o(〃'▽'〃)o Hi!
 
 !!! info "site.info"
-    这里是鹤翔万里（TonyCrane）的个人笔记本哦！  
-
-    网站组织结构大概是安全方向的在 [Security](sec/) 部分，网络相关的在 [Web](web/) 部分，打 CTF 学到用到的在 [CTF](ctf/) 部分（部分比赛的 writeup 会放在 [Writeups](writeups/) 部分），其它计算机相关的在 [Computer Science](cs/) 部分，剩下的丢在 [Others](others) 里面。
+    这里是AC的个人笔记本哦！  
 
     如果发现了有内容错误可以通过文末评论告诉我吗qwq
 
     大概是随时更新，~~随时咕咕咕~~
 
     ??? question "about(site.author)"
-        18 岁，事浙江大学信息安全专业大二学生，事哔哩哔哩 up 主 [@鹤翔万里](https://space.bilibili.com/171431343)，事 AAA 战队 misc 手 @TonyCrane 
+        07年生（也有可能是1907年），就读于浙江大学竺可桢学院混合班，爱好是乒乓球，很喜欢玩器材。同时也是竺可桢学院灵韵交响乐团的一个小提琴手，喜欢吃肉，偶尔练琴，欢迎交个朋友组组重奏什么的。
 
-        - 主页：https://tonycrane.cc/
-        - 博客：https://blog.tonycrane.cc/
-        - GitHub：https://github.com/TonyCrane/
+        - 个人导航：https://acxikaly.top
+        - 主页：尚在搭建中
+        - 微信公众号：Ac轴上的曹点
+        - GitHub：https://github.com/accclarkson177-svg
+        - bilibili：https://space.bilibili.com/649713675?spm_id_from=333.1007.0.0
     
     ??? info "site.statistics"
         页面总数：{{pages}}  
@@ -31,8 +31,8 @@ statistics: true
         网站运行时间：<span id="web-time"></span>
 
 ```python title="script.py"
-if visitor.name == 'TonyCrane':
-    print(f"看什么看，快去学习/做视频/写笔记/打CTF/{'/'.join(tasks)}\n")
+if visitor.name == 'Ac':
+    print(f"看什么看，快去学习/做视频/写笔记/练琴/{'/'.join(tasks)}\n")
     logging.warning("别摸了")
 else:
     print("希望这个小破站点能对你有所帮助ヽ(*´∀｀)八(´∀｀*)ノ\n")

@@ -142,6 +142,10 @@ nav:
           - 首页: highschool/home.md
           - 语文: highschool/ch/index.md
           - 数学: highschool/ma/index.md
+  - AI使用:
+      - Prompt积累: aires/prompt.md
+      - 大佬的提示词: aires/prompt_g.md
+      - 工具分析: aires/tools.md
   - Others:
       - others/index.md
      
