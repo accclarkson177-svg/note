@@ -1039,26 +1039,44 @@ var _hmt = _hmt || [];
   <div class="md-typeset" style="display: block; background-color: transparent; font-size: 125%;">
     <div class="md-grid">
       <div style="margin-left: 0.8rem;">
-        <p>(๑&gt;ᴗ&lt;๑)</p>
-<p>你们好</p>
-<p>这里是Accccc的个人笔记本哦！  </p>
-<!-- [:octicons-info-16: 关于我](about/) /  -->
-<p>[<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3z"></path></svg></span> 最近更新]
-[<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .75.75 0 0 1 .018-1.042.75.75 0 0 1 1.042-.018 2 2 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042m-4.69 9.64a2 2 0 0 0 2.83 0l1.25-1.25a.75.75 0 0 1 1.042.018.75.75 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018 2 2 0 0 0-2.83 0l-2.5 2.5a2 2 0 0 0 0 2.83"></path></svg></span> 致谢列表与好朋友们]
-[<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"></path></svg></span> 站点统计]</p>
-<div class="card" id="statistics" style="width: 27em; border-color: transparent; opacity: 0; font-size: 75%">
-<div style="padding-left: 1em;">
-<p>页面总数：30<br>
-总字数：12652<br>
-代码块行数：0<br>
+        <div style="max-width: 650px;">
+<div class="admonition gaia-red">
+<p class="admonition-title">self info</p>
+<p>这里是AC的个人笔记本哦！</p>
+<p>如果发现了有内容错误可以通过文末评论告诉我吗qwq，我准备做个文末评论区什么的。</p>
+<p>大概是随时更新，<del>随时尽显锋芒，用热情想一出是一出</del></p>
+</div>
+<details class="question">
+<summary>about(site.author)</summary>
+<p>07年生（也有可能是1907年），就读于浙江大学竺可桢学院混合班，爱好是乒乓球，很喜欢玩器材。同时也是竺可桢学院灵韵交响乐团的一个小提琴手，喜欢吃肉，偶尔练琴，欢迎交个朋友组组重奏什么的。</p>
+<ul>
+<li>个人导航：<a href="https://acxikaly.top">https://acxikaly.top</a></li>
+<li>主页：尚在搭建中</li>
+<li>微信公众号：Ac轴上的曹点</li>
+<li>GitHub：<a href="https://github.com/accclarkson177-svg">https://github.com/accclarkson177-svg</a></li>
+<li>bilibili：<a href="https://space.bilibili.com/649713675?spm_id_from=333.1007.0.0">https://space.bilibili.com/649713675?spm_id_from=333.1007.0.0</a></li>
+</ul>
+</details>
+<details class="info">
+<summary>site.statistics</summary>
+<p>页面总数：30
+总字数：12824
+代码块行数：6
 网站运行时间：<span id="web-time"></span></p>
+</details>
 </div>
-</div>
+<div class="highlight"><span class="filename">script.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">if</span> <span class="n">visitor</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s1">'Ac'</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"看什么看，快去学习/做视频/写笔记/练琴/</span><span class="si">{</span><span class="s1">'/'</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">"别摸了"</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">"希望这个小破站点能对你有所帮助ヽ(*´∀｀)八(´∀｀*)ノ</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">thanks_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">visitor</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div>
 <script>
 function updateTime() {
     var date = new Date();
     var now = date.getTime();
-    var startDate = new Date("2022/01/03 09:10:00");
+    var startDate = new Date("2026/04/13 09:10:00");
     var start = startDate.getTime();
     var diff = now - start;
     var y, d, h, m;
@@ -1075,14 +1093,6 @@ function updateTime() {
     setTimeout(updateTime, 1000 * 60);
 }
 updateTime();
-function toggle_statistics() {
-    var statistics = document.getElementById("statistics");
-    if (statistics.style.opacity == 0) {
-        statistics.style.opacity = 1;
-    } else {
-        statistics.style.opacity = 0;
-    }
-}
 </script>
       </div>
     </div>
@@ -1109,7 +1119,7 @@ function toggle_statistics() {
       
         
       
-      <nav class="md-footer__inner md-grid" aria-label="页脚" hidden="">
+      <nav class="md-footer__inner md-grid" aria-label="页脚">
         
         
           
