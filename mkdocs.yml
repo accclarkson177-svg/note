@@ -88,6 +88,7 @@ extra_css:
   - css/toc_extra.css
   - css/svg_extra.css
 
+
 extra_javascript:
   - https://cdn.tonycrane.cc/utils/katex.min.js
   - js/katex.js
@@ -133,7 +134,7 @@ not_in_nav: |
   cs/algorithm/ds-som/index.md
 
 nav:
-  - Home:
+  - WELCOME:
       - Home: index.md
       - 更新记录: changelog.md
       - 友链: links.md
