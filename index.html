@@ -179,6 +179,11 @@ var _hmt = _hmt || [];
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -322,7 +327,7 @@ var _hmt = _hmt || [];
           
   
   
-  Home
+  WELCOME
 
         </a>
       </li>
@@ -477,7 +482,7 @@ var _hmt = _hmt || [];
   <span class="md-ellipsis">
     
   
-    Home
+    WELCOME
   
 
     
@@ -493,7 +498,7 @@ var _hmt = _hmt || [];
             <span class="md-nav__icon md-icon"></span>
             
   
-    Home
+    WELCOME
   
 
           </label>
@@ -511,6 +516,8 @@ var _hmt = _hmt || [];
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="." class="md-nav__link md-nav__link--active">
@@ -1039,32 +1046,24 @@ var _hmt = _hmt || [];
   <div class="md-typeset" style="display: block; background-color: transparent; font-size: 125%;">
     <div class="md-grid">
       <div style="margin-left: 0.8rem;">
-        <div style="max-width: 650px;">
+        <div style="max-width: 650px; margin-top: -50px; margin-left: 20px;">
+<h1 id="_1">这是一个精美的封面<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p><a class="button" href="about/">→ 点击查看：关于我</a></p>
+<div style="max-width: 650px;">
 <div class="admonition gaia-red">
 <p class="admonition-title">self info</p>
 <p>这里是AC的个人笔记本哦！</p>
 <p>如果发现了有内容错误可以通过文末评论告诉我吗qwq，我准备做个文末评论区什么的。</p>
 <p>大概是随时更新，<del>随时尽显锋芒，用热情想一出是一出</del></p>
 </div>
-<details class="question">
-<summary>about(site.author)</summary>
-<p>07年生（也有可能是1907年），就读于浙江大学竺可桢学院混合班，爱好是乒乓球，很喜欢玩器材。同时也是竺可桢学院灵韵交响乐团的一个小提琴手，喜欢吃肉，偶尔练琴，欢迎交个朋友组组重奏什么的。</p>
-<ul>
-<li>个人导航：<a href="https://acxikaly.top">https://acxikaly.top</a></li>
-<li>主页：尚在搭建中</li>
-<li>微信公众号：Ac轴上的曹点</li>
-<li>GitHub：<a href="https://github.com/accclarkson177-svg">https://github.com/accclarkson177-svg</a></li>
-<li>bilibili：<a href="https://space.bilibili.com/649713675?spm_id_from=333.1007.0.0">https://space.bilibili.com/649713675?spm_id_from=333.1007.0.0</a></li>
-</ul>
-</details>
+</div>
 <details class="info">
 <summary>site.statistics</summary>
-<p>页面总数：30
-总字数：12555
+<p>页面总数：32
+总字数：12737
 代码块行数：6
 网站运行时间：<span id="web-time"></span></p>
 </details>
-</div>
 <div class="highlight"><span class="filename">script.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">if</span> <span class="n">visitor</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s1">'Ac'</span><span class="p">:</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"看什么看，快去学习/做视频/写笔记/练琴/</span><span class="si">{</span><span class="s1">'/'</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">"别摸了"</span><span class="p">)</span>
@@ -1088,12 +1087,13 @@ function updateTime() {
     if (y == 0) {
         document.getElementById("web-time").innerHTML = d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时<span class=\"heti-spacing\"> </span>" + m + "<span class=\"heti-spacing\"> </span>分钟";
     } else {
-        document.getElementById("web-time").innerHTML = y + "<span class=\"heti-spacing\"> </span>年<span class=\"heti-spacing\"> </span>" + d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时<span class=\"heti-spacing\"> </span>" + m + "<span class=\"heti-spacing\"> </span>分钟";
+        document.getElementById("web-time").innerHTML = y + "<span class=\"heti-spacing\"> </span>年<span class=\"heti-spacing\"> </span>" + d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时";
     }
     setTimeout(updateTime, 1000 * 60);
 }
 updateTime();
 </script>
+</div>
       </div>
     </div>
   </div>
