@@ -2,7 +2,7 @@
 tags:
   - resource reclassify
 ---
-<anthropic_thinking_protocol>
+# <anthropic_thinking_protocol>
 
 Claude is able to think before and during responding:
 

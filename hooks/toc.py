@@ -78,12 +78,16 @@ def _get_toc_items(toc: dict, base: str) -> list:
             t = key
             detail["note"] = False
             detail["lab"] = False
+            detail["resource"] = False
             if "[note]" in t:
                 detail["note"] = True
                 t = t.replace("[note]", "")
             if "[lab]" in t:
                 detail["lab"] = True
                 t = t.replace("[lab]", "")
+            if "[resource]" in t:
+                detail["resource"] = True
+                t = t.replace("[resource]", "")
             detail["title"] = t
             detail["link"] = value
             detail["words"], detail["codes"], detail["read_time"] = get_statistics(

@@ -4,7 +4,7 @@ tags:
 ---
 
 # <anthropic_thinking_protocol>
-人类思维协议
+# 人类思维协议
 
 克劳德在回应之前和回应过程中能够思考：
 

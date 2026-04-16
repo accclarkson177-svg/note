@@ -25,8 +25,11 @@
                 {% if content.lab %}
                 <span class="lab-tag"></span>
                 {% endif %}
+                {% if content.resource %}
+                <span class="toc-tag toc-tag-resource"></span>
+                {% endif %} 
             </div>
-            {% if content.lock %}
+            {% if content.lock %} 
             <div class="item-lock">不公开</div>
             {% else %}
             <div class="item-actions">{{ content.update_time }}</div>

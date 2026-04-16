@@ -6,9 +6,9 @@
 ## 资料部分
 {{ BEGIN_TOC }}
 - 涂津豪:
-    - 中文1.0[note]: ../assets/1ch/
-    - 中文2.0[note]: ../assets/2ch/
-    - 英文1.0[note]: ../assets/1en/
-    - 英文2.0[note]: ../assets/2en/
+    - 中文1.0[resource]: ../assets/1ch/
+    - 中文2.0[resource]: ../assets/2ch/
+    - 英文1.0[resource]: ../assets/1en/
+    - 英文2.0[resource]: ../assets/2en/
 {{ END_TOC }}
 > **Tips**: 遵循笔记挪用规则，注明出处
