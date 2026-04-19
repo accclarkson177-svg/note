@@ -1,6 +1,14 @@
+
+
+/* ==========================================================================
+   全局字体替换：使用我们引入的公共 CDN 字体
+========================================================================== */
 :root {
-  --md-text-font: "JetBrains Mono", "LXGW WenKai Screen"; 
-  --md-code-font: "JetBrains Mono";
+    /* 替换全站的默认正文字体为霞鹜文楷 */
+    --md-text-font: "LXGW WenKai Screen", sans-serif !important;
+    
+    /* 替换所有的代码块和代码行字体为 JetBrains Mono */
+    --md-code-font: "JetBrains Mono", monospace !important;
 }
 
 

@@ -1,6 +1,6 @@
 ---
 hide:
-    - date
+    - date   
 home: true
 template: home.html
 statistics: true
