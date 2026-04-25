@@ -5,6 +5,7 @@ home: true
 template: home.html
 statistics: true
 ---
+<!-- 上面这几页默认了你打开网站之后看到的是什么样子！-->
 <div markdown="1" style="max-width: 650px; margin-top: -50px; margin-left: 20px;">
 
 # 这是一个精美的封面
@@ -31,7 +32,7 @@ if visitor.name == 'Ac':
     print(f"看什么看，快去学习/做视频/写笔记/练琴/{'/'.join(tasks)}\n")
     logging.warning("别摸了")
 else:
-    print("希望这个小破站点能对你有所帮助ヽ(*´∀｀)八(´∀｀*)ノ\n")
+    print("系兄弟就一起来砍我\n")
     thanks_list.append(visitor.name)
 ```
 
