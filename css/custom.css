@@ -1,4 +1,68 @@
+/* ==========================================================================
+   乐谱库 4列看板布局
+========================================================================== */
+.sheet-grid {
+    display: grid;
+    /* 【修改1】强制一行 4 列，让封面更大 */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 24px; /* 间距稍微调大一点，更大气 */
+    margin-top: 20px;
+}
 
+/* 适配小屏幕 */
+@media (max-width: 1200px) { .sheet-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 768px) { .sheet-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .sheet-grid { grid-template-columns: 1fr; } }
+
+/* 乐谱卡片样式保持不变 */
+.sheet-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sheet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.sheet-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1.414;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.sheet-actions {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; /* 按钮之间的间距 */
+    margin-top: 12px;
+}
+
+/* 【修改2】重写按钮样式，让它变得精致小巧 */
+.sheet-btn {
+    display: block;
+    padding: 6px 4px !important; /* 关键：上下内边距压小 */
+    font-size: 0.85rem !important;
+    font-weight: bold;
+    line-height: 1.2 !important; /* 关键：强行压缩文字行高 */
+    border-radius: 6px;
+    color: #fff !important;
+    text-decoration: none !important;
+    white-space: nowrap; /* 关键：宁愿文字稍微小点，也绝不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-detail { background-color: #8a2be2b0; }
+.btn-detail:hover { background-color: #8A2BE2; }
+
+.btn-download { background-color: #3b4252; }
+.btn-download:hover { background-color: #4c566a; }
 
 /* ==========================================================================
    全局字体替换：使用我们引入的公共 CDN 字体
