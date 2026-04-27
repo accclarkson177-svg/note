@@ -16,6 +16,18 @@
         </div>
     </div>
 
+    <div class="sheet-card">
+        <a href="ybxyq/"><img src="assets/covers/ybxyq.jpg" alt="Cadenza for 夜半小夜曲 预览"></a>
+        <h3 style="margin: 8px 0; font-size: 1.2rem;">Cadenza for夜半小夜曲</h3>
+        <p style="font-size: 0.8rem; color: gray; margin-bottom: 12px;">小提琴独奏</p>
+        
+        <div class="sheet-actions">
+            <a href="ybxyq/" class="sheet-btn btn-detail">📝 曲目详情</a>
+            
+            <a href="assets/pdfs/ybxyq.pdf" target="_blank" class="sheet-btn btn-download">👀 预览 / 下载 PDF</a>
+        </div>
+    </div>
+
 </div>
 
 ---
