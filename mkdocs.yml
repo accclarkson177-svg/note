@@ -152,7 +152,7 @@ nav:
           - 语文: highschool/ch/index.md
           - 数学: highschool/ma/index.md
   - AI使用:
-      - 工具分析: aires/tools.md
+      - 工具分析: aires/tools.md  
       - Prompt积累: aires/prompt.md
       - 大佬的提示词: aires/prompt_g.md
   
