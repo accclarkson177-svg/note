@@ -98,15 +98,17 @@ var _hmt = _hmt || [];
     
   <link rel="stylesheet" href="css/cards/base.css">
   <link rel="stylesheet" href="css/cards/cards.css">
-  <script type="module" crossorigin="" src="/assets/cards/index.caca6175.js"></script>
-  <link rel="stylesheet" href="/assets/cards/index.c9fa2768.css">
+  
+  <script type="module" crossorigin="" src="./assets/cards/index.caca6175.js"></script>
+  <link rel="stylesheet" href="./assets/cards/index.c9fa2768.css">
+  
   <style>
     body {
-      background-image: url(/assets/images/home/light.jpg);
+      background-image: url(./assets/images/home/light.jpg);
       background-size: cover;
     }
     body[data-md-color-scheme="slate"] {
-      background-image: url(/assets/images/home/dark.jpg);
+      background-image: url(./assets/images/home/dark.jpg);
       background-size: cover;
     }
     .md-header, .md-tabs, .md-footer, .md-footer-meta {
@@ -117,16 +119,17 @@ var _hmt = _hmt || [];
         height: 0 !important;
       }
     }
+
+    /* 👇 优雅且稳妥的排版，去掉了红框，使用相对位置 👇 */
     #app {
       position: absolute;
-      right: calc(35% - 320px / 2);
-      top: calc(50% - 445.68px / 2);
+      right: 15%;  /* 距离屏幕右侧 15%，根据你的喜好可以改大改小 */
+      top: 25%;    /* 距离顶部 25% */
+      z-index: 99; /* 确保悬浮在所有图文上方 */
     }
-    @media (max-width: 960px) {
-      #app {
-        display: none;
-      }
-    }
+
+    /* 注：已安全移除导致小屏幕误判隐身的 @media 隐藏代码 */
+
     .md-main {
       display: flex;
       flex-direction: column;
@@ -1262,6 +1265,7 @@ var _hmt = _hmt || [];
               <article class="md-content__inner md-typeset">
                 
   <div id="app"></div>
+  
   <div class="md-typeset" style="display: block; background-color: transparent; font-size: 125%;">
     <div class="md-grid">
       <div style="margin-left: 0.8rem;">
