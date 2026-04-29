@@ -1,40 +1,37 @@
 ---
 hide:
     - date   
+    - footer
 home: true
 template: home.html
 statistics: true
 ---
 <!-- 上面这几页默认了你打开网站之后看到的是什么样子！-->
-<div markdown="1" style="max-width: 650px; margin-top: -50px; margin-left: 20px;">
+<div markdown="1" style="max-width: 650px; margin-top: -10px; margin-left: 40px;">
 
 # 这是一个精美的封面
+<!-- 空位置命令！-->
+<div style="height: 100px;"></div>
 
 [→ 点击查看：关于我](about.md){: .button }
+[→ 点他：关于这个文档](aboutt.md){: .button}
 
-<div markdown="1" style="max-width: 650px;">
-!!! gaia-red "self info"
-    这里是AC的个人笔记本哦！
 
-    如果发现了有内容错误可以通过文末评论告诉我吗qwq，我准备做个文末评论区什么的。
+这里是Ac的个人笔记本哦！
 
-    大概是随时更新，~~随时尽显锋芒，用热情想一出是一出~~
+    
+[:material-clock-time-two-outline: 最近更新](changelog/) / 
+[:octicons-link-16: 朋友们!](links/) / 
+[:material-chart-line: 站点统计](javascript:toggle_statistics();)
+
+<div id="statistics" markdown="1" class="card" style="width: 27em; border-color: transparent; opacity: 0; font-size: 75%">
+<div style="padding-left: 1em;" markdown="1">
+页面总数：{{pages}}  
+总字数：{{words}}  
+代码块行数：{{codes}}  
+网站运行时间：<span id="web-time"></span>
 </div>
-
-??? info "site.statistics"
-    页面总数：{{pages}}
-    总字数：{{words}}
-    代码块行数：{{codes}}
-    网站运行时间：<span id="web-time"></span>
-
-```python title="script.py"
-if visitor.name == 'Ac':
-    print(f"看什么看，快去学习/做视频/写笔记/练琴/{'/'.join(tasks)}\n")
-    logging.warning("别摸了")
-else:
-    print("系兄弟就一起来砍我\n")
-    thanks_list.append(visitor.name)
-```
+</div>
 
 <script>
 function updateTime() {
@@ -52,9 +49,17 @@ function updateTime() {
     if (y == 0) {
         document.getElementById("web-time").innerHTML = d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时<span class=\"heti-spacing\"> </span>" + m + "<span class=\"heti-spacing\"> </span>分钟";
     } else {
-        document.getElementById("web-time").innerHTML = y + "<span class=\"heti-spacing\"> </span>年<span class=\"heti-spacing\"> </span>" + d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时";
+        document.getElementById("web-time").innerHTML = y + "<span class=\"heti-spacing\"> </span>年<span class=\"heti-spacing\"> </span>" + d + "<span class=\"heti-spacing\"> </span>天<span class=\"heti-spacing\"> </span>" + h + "<span class=\"heti-spacing\"> </span>小时<span class=\"heti-spacing\"> </span>" + m + "<span class=\"heti-spacing\"> </span>分钟";
     }
     setTimeout(updateTime, 1000 * 60);
 }
 updateTime();
+function toggle_statistics() {
+    var statistics = document.getElementById("statistics");
+    if (statistics.style.opacity == 0) {
+        statistics.style.opacity = 1;
+    } else {
+        statistics.style.opacity = 0;
+    }
+}
 </script>

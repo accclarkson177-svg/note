@@ -141,14 +141,12 @@ hooks:
  - hooks/toc.py
  
 not_in_nav: |
-  todo.md
+  todo.md  
   cs/algorithm/ds-som/index.md
 
 nav:
   - WELCOME:
       - Home: index.md
-      - 更新记录: changelog.md
-      - 友链: links.md
   - 高中:
       - 笔记:
           - 首页: highschool/home.md

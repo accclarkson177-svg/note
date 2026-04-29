@@ -31,3 +31,12 @@ title: 关于我
 - 持续整理笔记与课程手写记录
 - 做一些专题型的笔记集合（如数学/算法/AI 工具）
 - 优化站点 UI / 增加评论区 & 互动功能
+
+```python title="script.py"
+if visitor.name == 'Ac':
+    print(f"看什么看，快去学习/做视频/写笔记/练琴/{'/'.join(tasks)}\n")
+    logging.warning("别摸了")
+else:
+    print("系兄弟就一起来砍我\n")
+    thanks_list.append(visitor.name)
+```
