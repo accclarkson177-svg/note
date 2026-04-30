@@ -1,10 +1,7 @@
 # Ac's Notebook<br/>Ac的笔记本
 
 <a href="https://github.com/accclarkson177-svg/note">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/github/github-dark.png">
-    <img alt="Banner" src="docs/assets/github/github-light.png">
-  </picture>
+  暂时不知道放点啥
 </a>
 
 
