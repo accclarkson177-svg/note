@@ -7,5 +7,5 @@
 
 {{ BEGIN_TOC }}
 - 笔记:
-    - ZJU 课程手写笔记汇总[note]: notes/
+    - ZJU-课程手写笔记汇总与其他[note]: notes/
 {{ END_TOC }}
