@@ -154,12 +154,23 @@ nav:
       - 工具分析: aires/tools.md  
       - Prompt积累: aires/prompt.md
       - 大佬的提示词: aires/prompt_g.md
-  
+  - cs:
+      - 编程语言: 
+         - c语言: cs/lang/c/c语言自用.md
+         - c++: cs/lang/c++/cpp.md
+         - python: cs/lang/python/python.md
+      - 算法与数据结构: 
+         - 数据结构基础刷题: cs/alg/fds/部分习题.md
   - 🎼乐谱库: 
     - 曲谱展厅: sheet_music/index.md
     - 曲目简介:
       - City of Stars: sheet_music/cityofstars.md
       - Cadenza for 月半小夜曲: sheet_music/ybxyq.md
+  - Capriccioso:
+      - 学习范式: 
+         - 首页: capriccioso/index.md
+         - 相信纸和笔的力量: capriccioso/penpaper.md
+         - 关于我们如何记笔记: capriccioso/noteforuse.md
   - Others:
       - others/index.md
 # 比如数学好题整理，然后可以比如上次线代作业那个归纳法和我说的那个高考题目不等式的题型归纳到一起，或者说一些好题的总结之类的

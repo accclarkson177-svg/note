@@ -21,6 +21,15 @@ nostatistics: True
     </a>
 </div>
 
+<div class="flink-list-item">
+    <a href="http://lowentro.cn/notes/" title="低熵体" target="_blank">
+        <div class="flink-item-icon">
+            <img src="../assetimg/img/tjl.jpg" alt="">
+        </div>
+        <div class="flink-item-name">低熵体的工具箱</div>
+        <div class="flink-item-desc">!?虽虽?!</div>
+    </a>
+</div>
 
 
 
