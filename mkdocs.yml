@@ -158,7 +158,9 @@ nav:
       - 编程语言: 
          - c语言: cs/lang/c/c语言自用.md
          - c++: cs/lang/c++/cpp.md
-         - python: cs/lang/python/temp.md
+         - python: 
+           - temp1: cs/lang/python/python.md
+           - temp2: cs/lang/python/temp.md
       - 算法与数据结构: 
          - 数据结构基础刷题: cs/alg/fds/部分习题.md
   - 🎼乐谱库: 
